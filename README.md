@@ -22,6 +22,7 @@ Each phase builds upon the previous one, expanding both technical depth and defe
 Virtualized Environment (VMware):
 
 - Windows 11 (Client / Target)
+- Linux OS (Client / Target)
 - Ubuntu Server (Infrastructure / Log Server / AD)
 - Kali Linux (Attacker – later phase)
 - SIEM (Wazuh – later phase)
@@ -46,7 +47,7 @@ Focus:
 - Kerberos packet flow analysis
 
 Repository:
-➡️ `network-plus-homelab`
+➡️ [Network+ Homelab](https://github.com/cesarg210/network-plus-homelab.git)
 
 ---
 
