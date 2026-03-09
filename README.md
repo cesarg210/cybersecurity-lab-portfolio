@@ -86,9 +86,28 @@ Focus:
 - Remediation planning
 
 ---
+## Diagram: Network Architecture
+
+                       VMware Virtual Network
+                                │
+                ┌───────────────┼───────────────┐
+                │                               │
+         Kali Linux                         Windows Client
+        (Attacker VM)                     Domain Workstation
+        192.168.170.50                     192.168.170.128
+                │                               │
+                └───────────────┬───────────────┘
+                                │
+                        Linux Domain Controller
+                        192.168.170.130
+                                │
+                           SIEM Server
+                         (Wazuh Log Server)
+                         192.168.170.200
 
 ## Objective
 
 Develop practical, hands-on experience in networking, system security, detection engineering, and vulnerability management through structured lab progression.
 
 This portfolio documents technical growth over time rather than isolated exercises.
+
