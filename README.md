@@ -19,6 +19,23 @@ Each phase builds upon the previous one, expanding both technical depth and defe
 
 ## Lab Architecture (High-Level)
 
+                       VMware Virtual Network
+                                │
+                ┌───────────────┼───────────────┐
+                │                               │
+         Kali Linux                         Windows Client
+        (Attacker VM)                     Domain Workstation
+        192.168.170.50                     192.168.170.128
+                │                               │
+                └───────────────┬───────────────┘
+                                │
+                        Linux Domain Controller
+                        192.168.170.130
+                                │
+                           SIEM Server
+                         (Wazuh Log Server)
+                         192.168.170.200
+
 Virtualized Environment (VMware):
 
 - Windows 11 (Client / Target)
@@ -86,24 +103,6 @@ Focus:
 - Remediation planning
 
 ---
-## Diagram: Network Architecture
-
-                       VMware Virtual Network
-                                │
-                ┌───────────────┼───────────────┐
-                │                               │
-         Kali Linux                         Windows Client
-        (Attacker VM)                     Domain Workstation
-        192.168.170.50                     192.168.170.128
-                │                               │
-                └───────────────┬───────────────┘
-                                │
-                        Linux Domain Controller
-                        192.168.170.130
-                                │
-                           SIEM Server
-                         (Wazuh Log Server)
-                         192.168.170.200
 
 ## Objective
 
