@@ -25,27 +25,25 @@ Each phase builds upon the previous one, expanding both technical depth and defe
                 │                               │
          Kali Linux                         Windows Client
         (Attacker VM)                     Domain Workstation
-        192.168.170.50                     192.168.170.128
+        192.168.200.40                     192.168.200.30
                 │                               │
                 └───────────────┬───────────────┘
                                 │
                         Linux Domain Controller
-                        192.168.170.130
+                        192.168.200.10
                                 │
                            SIEM Server
-                         (Wazuh Log Server)
-                         192.168.170.200
+                         192.168.200.20
 
 Virtualized Environment (VMware):
 
-- Windows 11 (Client / Target)
-- Linux OS (Client / Target)
-- Ubuntu Server (Infrastructure / Log Server / AD)
-- Kali Linux (Attacker – later phase)
-- SIEM (Wazuh – later phase)
+- Windows 11 (Client)
+- Linux - Ubuntu Server (Active Directory)
+- Kali Linux (Attacker)
+- SIEM (Elastic Stack w/ Docker)
 
 Networking:
-- NAT networking
+- NAT & Host-only
 - Internal virtual subnet
 - Static IP configuration
 - Controlled traffic analysis
@@ -82,7 +80,7 @@ Repository
 
 ### 🔵 Phase 3 – SIEM Deployment
 Focus:
-- Wazuh installation
+- Elastic Stack installation
 - Log ingestion from Windows & Linux
 - Alert rule creation
 - Incident documentation
