@@ -25,15 +25,15 @@ Each phase builds upon the previous one, expanding both technical depth and defe
                 │                               │
          Kali Linux                         Windows Client
         (Attacker VM)                     Domain Workstation
-        192.168.200.40                     192.168.200.30
+        192.168.85.40                     192.168.85.30
                 │                               │
                 └───────────────┬───────────────┘
                                 │
                         Linux Domain Controller
-                        192.168.200.10
+                        192.168.85.10
                                 │
                            SIEM Server
-                         192.168.200.20
+                         192.168.85.20
 
 Virtualized Environment (VMware):
 
