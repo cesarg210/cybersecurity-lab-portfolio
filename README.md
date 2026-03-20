@@ -3,7 +3,7 @@
 ## Overview
 
 This repository serves as a central portfolio for my multi-phase cybersecurity lab environment.  
-The lab is structured to progressively develop hands-on skills aligned with networking, security operations, detection engineering, and vulnerability management.
+The lab is structured to progressively develop hands-on skills aligned with networking, security operations, detection engineering, vulnerability management, and GRC.
 
 The environment evolves through structured phases:
 
@@ -12,6 +12,7 @@ The environment evolves through structured phases:
 - 🔵 SIEM Deployment & SOC Operations
 - 🔴 Threat Detection & Attack Simulation (CySA+ aligned)
 - 🟣 Vulnerability Management
+- 🟠 Governance, Risk & Compliance
 
 Each phase builds upon the previous one, expanding both technical depth and defensive understanding.
 
@@ -105,9 +106,19 @@ Focus:
 
 ---
 
+### 🟠 Phase 6 – Governance, Risk & Compliance (GRC)
+Focus:
+- Risk Assessment & Analysis
+- Framework Mapping (NIST CSF)
+- Security Policy Development
+- Compliance & Control Evaluation
+- Risk-Based Vulnerability Management
+- Executive Reporting
+- Deliverables
+
 ## Objective
 
-Develop practical, hands-on experience in networking, system security, detection engineering, and vulnerability management through structured lab progression.
+Develop practical, hands-on experience in networking, system security, detection engineering, vulnerability management, and GRC through structured lab progression.
 
 This portfolio documents technical growth over time rather than isolated exercises.
 
