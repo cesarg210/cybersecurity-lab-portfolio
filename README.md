@@ -86,6 +86,9 @@ Focus:
 - Alert rule creation
 - Incident documentation
 
+Repository
+➡️ [SIEM/SOC Homelab](https://github.com/cesarg210/siem-soc-operations-homelab.git)
+
 ---
 
 ### 🔴 Phase 4 – Threat Detection & Attack Simulation
