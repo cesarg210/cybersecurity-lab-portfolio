@@ -7,10 +7,10 @@ The lab is structured to progressively develop hands-on skills aligned with netw
 
 The environment evolves through structured phases:
 
-- 🟢 Network Foundation (Network+ aligned)
-- 🟡 Security Hardening & Logging (Security+ aligned)
+- 🟢 Network Foundation
+- 🟡 Security Hardening & Logging
 - 🔵 SIEM Deployment & SOC Operations
-- 🔴 Threat Detection & Attack Simulation (CySA+ aligned)
+- 🔴 Threat Detection & Attack Simulation
 - 🟣 Vulnerability Management
 - 🟠 Governance, Risk & Compliance
 
