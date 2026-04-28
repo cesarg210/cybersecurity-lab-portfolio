@@ -97,6 +97,8 @@ Focus:
 - Port scanning & brute force attempts
 - IOC identification
 - Detection workflow documentation
+Repository
+➡️ [Threat Detection Homelab](https://github.com/cesarg210/soc-threat-detection-homelab.git)
 
 ---
 
