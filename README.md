@@ -74,7 +74,7 @@ Focus:
 - Authentication failure simulations
 - Log analysis and event review
 
-Repository
+Repository:
 ➡️ [Security+ Homelab](https://github.com/cesarg210/security-plus-homelab.git)
 
 ---
@@ -86,7 +86,7 @@ Focus:
 - Alert rule creation
 - Incident documentation
 
-Repository
+Repository:
 ➡️ [SIEM/SOC Homelab](https://github.com/cesarg210/siem-soc-operations-homelab.git)
 
 ---
@@ -97,7 +97,8 @@ Focus:
 - Port scanning & brute force attempts
 - IOC identification
 - Detection workflow documentation
-Repository
+
+Repository:
 ➡️ [Threat Detection Homelab](https://github.com/cesarg210/soc-threat-detection-homelab.git)
 
 ---
