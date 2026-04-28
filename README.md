@@ -39,7 +39,7 @@ Each phase builds upon the previous one, expanding both technical depth and defe
 Virtualized Environment (VMware):
 
 - Windows 11 (Client)
-- Linux - Ubuntu Server (Active Directory)
+- Linux - Ubuntu Server (Domain Controller)
 - Kali Linux (Attacker)
 - SIEM (Elastic Stack w/ Docker)
 
