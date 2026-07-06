@@ -110,6 +110,9 @@ Focus:
 - Risk scoring
 - Remediation planning
 
+Repository:
+➡️ [Vulnerability Management Homelab](https://github.com/cesarg210/vulnerability-management-homelab.git)
+
 ---
 
 ### 🟠 Phase 6 – Governance, Risk & Compliance (GRC)
