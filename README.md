@@ -20,21 +20,7 @@ Each phase builds upon the previous one, expanding both technical depth and defe
 
 ## Lab Architecture (High-Level)
 
-                       VMware Virtual Network
-                                │
-                ┌───────────────┼───────────────┐
-                │                               │
-         Kali Linux                         Windows Client
-        (Attacker VM)                     Domain Workstation
-        192.168.85.40                     192.168.85.30
-                │                               │
-                └───────────────┬───────────────┘
-                                │
-                        Linux Domain Controller
-                        192.168.85.10
-                                │
-                           SIEM Server
-                         192.168.85.20
+![Lab Architecture](./VMware-virtual-network-topology.png)
 
 Virtualized Environment (VMware):
 
@@ -42,6 +28,7 @@ Virtualized Environment (VMware):
 - Linux - Ubuntu Server (Domain Controller)
 - Kali Linux (Attacker)
 - SIEM (Elastic Stack w/ Docker)
+- OpenVas (Vulnerability Scanner)
 
 Networking:
 - NAT & Host-only
