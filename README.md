@@ -20,7 +20,7 @@ Each phase builds upon the previous one, expanding both technical depth and defe
 
 ## Lab Architecture (High-Level)
 
-![Lab Architecture](./VMware-virtual-network-topology.png)
+![Lab Architecture](./Cybersecurity-Lab-Network-Architecture.png)
 
 Virtualized Environment (VMware):
 
